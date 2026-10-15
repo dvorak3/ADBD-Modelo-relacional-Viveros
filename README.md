@@ -9,11 +9,6 @@ Este repositorio contiene la solución completa para el diseño conceptual, mode
 ```text
 ADBD-Modelo-relacional-Viveros/
 ├── ejecucion/
-│   ├── 01_dbeaver_conexion.png
-│   ├── 02_dbeaver_config.png
-│   ├── 03_dbeaver_test_ok.png
-│   ├── 04_creacion_base_datos.png
-│   ├── 05_ejecucion_script_ddl_dml.png
 │   ├── 06_tabla_pedido.png
 │   ├── 07_tabla_detalle_pedido.png
 │   ├── 08_vista_pedidos_con_total.png
@@ -24,10 +19,11 @@ ADBD-Modelo-relacional-Viveros/
 │   ├── modelo_viveros.drawio
 │   ├── modelo_viveros.png
 │   ├── pedidos_fidelizacion.png
-│   ├── viveros_stock.png
-│   └── Vivero - gráfico del Modelo Relacional.drawio
-├── viveros.sql
-└── README.md
+│   └── viveros_stock.png
+├── README.md
+├── Vivero - gráfico del Modelo Relacional.drawio
+├── Vivero - gráfico del Modelo Relacional.png
+└── viveros.sql
 ```
 
 ---
@@ -39,6 +35,10 @@ El sistema gestiona la estructura operativa de la cadena de viveros "Tajinaste S
 ### Diagrama Entidad-Relación Completo (E/R)
 
 ![Modelo Entidad-Relacion Completo](./modelo/modelo_viveros.png)
+
+### Gráfico del Modelo Relacional
+
+![Grafico del Modelo Relacional](./Vivero%20-%20gr%C3%A1fico%20del%20Modelo%20Relacional.png)
 
 ### Diagramas de Subdominios Específicos
 
@@ -92,28 +92,7 @@ De acuerdo a las reglas de normalización, los atributos derivados no se almacen
 
 ---
 
-## 3. Configuración y Conexión Remota (DBeaver)
-
-Pasos de verificación de conectividad y despliegue sobre servidor remoto PostgreSQL:
-
-### Configuración de la Conexión JDBC
-![Conexion DBeaver](./ejecucion/01_dbeaver_conexion.png)
-
-### Parámetros del Servidor
-![Configuracion Servidor](./ejecucion/02_dbeaver_config.png)
-
-### Test de Conexión Correcto
-![Test de Conexion OK](./ejecucion/03_dbeaver_test_ok.png)
-
-### Creación de la Base de Datos `viveros`
-![Creacion Base de Datos](./ejecucion/04_creacion_base_datos.png)
-
----
-
-## 4. Evidencia de Ejecución y Verificación de Datos
-
-### Ejecución Completa del Script SQL (DDL + DML + Vistas)
-![Ejecucion Script SQL](./ejecucion/05_ejecucion_script_ddl_dml.png)
+## 3. Evidencia de Ejecución y Verificación de Datos
 
 ### Verificación de Tablas Principales
 * **Tabla `pedido`:**
